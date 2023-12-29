@@ -1,3 +1,8 @@
+// Copyright 2023 Wilmer Soriano
+// This file is part of the Library Management System and is licensed
+// under the terms of the Gnu General Public License version 3 or
+// any later version, see <https://www.gnu.org/licenses/>.
+
 package library;
 
 import java.io.BufferedReader;

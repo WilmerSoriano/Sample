@@ -220,7 +220,7 @@ public class LibraryManager
       library.addPublication(video4);
       library.addPublication(video5);
    }
-
+   
    public String LibraryMenu(String option)
    {
       Scanner scan = new Scanner(System.in);
