@@ -5,7 +5,7 @@ the image changes to a hanged stick figure as it progresses.*/
 // Copyright 2023 [Wilmer Soriano]
 // This file is part of the C_program System and is licensed
 // under the terms of the Gnu General Public License version 3 or
-// (at your option) any later version, see <https://www.gnu.org/licenses/>.
+// any later version, see <https://www.gnu.org/licenses/>.
 
 #include <stdio.h>
 #include <string.h>
