@@ -2,8 +2,8 @@
 using only the space provided. If the user answer incorrectly
 the image changes to a hanged stick figure as it progresses.*/
 
-// Copyright 2023 [Wilmer Soriano]
-// This file is part of the C_program System and is licensed
+// Copyright 2023 Wilmer Soriano
+// This file is part of the Hangman and is licensed
 // under the terms of the Gnu General Public License version 3 or
 // any later version, see <https://www.gnu.org/licenses/>.
 
