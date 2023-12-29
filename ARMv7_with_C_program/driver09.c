@@ -44,5 +44,6 @@ int main(void) {
         printf("hw = %.1f, exam 1 = %3d, exam 2 = %3d; ", hwAvg, e1, e2);
         printf("grade needed = %6.2f\n", final);
     }
-}
 
+    return 0;
+}
