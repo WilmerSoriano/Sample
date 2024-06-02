@@ -1,0 +1,65 @@
+<!--Making my first HTML web
+      CAT Website-->
+<html>
+   <body>
+      <main>
+         <h1>CatPhotoApp</h1>
+         <section> <!-- Just adding it's own section such as method or functions--> <!--1st Section-->
+            <h2>Cat Photos</h2>
+
+            <p> See more <a target = "_blank" href = https://freecatphotoapp.com>cat photos</a> in our gallery </p> <!-- From a paragraph, you can add a text with a link-->
+                           <!--The 'target attriburte with _blank allows you to open another tab when cliking href'-->
+
+            <a href="https://freecatphotoapp.com"> <img src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt = "Image of cat"> </a> <!-- Add image with source and an alternative link in case of failure-->
+            <!--We also added a hyperlink to our image by using opening and closing with'a' adding the href -->
+            <a href="https://freecatphotoapp.com">link to cat pictures</a><!-- This is how you can add creditable source -->
+
+            <!-- We have basically added 3 different ways to access link and adding them to any element-->
+         </section>
+
+         <section><!--2nd Section-->
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+
+            <ul> <!--UL and li, allowes us to create custome bullet point for a list-->
+               <li>cat nip</li>
+               <li>laser pointers</li>
+               <li>lasagna</li>
+            </ul>
+
+            <figure>          
+               <img src ="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt = "A slice of lasagna on a plate.">
+               <figcaption>Cats <em>love</em> lasagna.</figcaption><!--First, the image it is it's own figure. Second, it also has a caption with emphazie of LOVE-->
+            </figure>
+
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+               <li>flea treatment</li><!--This is the same of UL but instead of bullet point uses order numbSers-->
+               <li>thunder</li>
+               <li>other cats</li>
+            </ol>
+
+            <figure>
+               <img src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt ="Five cats looking around a field.">
+               <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+         </section>
+
+         <section><!--3rd Secrtion-->
+            <h2>Cat Form</h2>
+            <form action = "https://freecatphotoapp.com/submit-cat-photo"></form>
+            <fieldset><!--This is indaicating it's own field set that take VALUES of only indoor or outdoor-->
+               <legend>Is your cat an indoor or outdoor cat?</legend>
+               <label><input type = "radio" id="indoor" name = "indoor-outdoor" value="indoor">Indoor</label><!-- radio is a button input-->
+               <label><input type = "radio" id ="outdoor" name = "indoor-outdoor" value="outdoor">Outdoor</label><!--these buttons are you to select only one button at the time, hence indoor-outdoor-->
+            </fieldset>
+            <input name = "catPhotoUrl" type = "text" placeholder = "cat photo URL" required> <!--NOTE: The order how I'm placing these does not matter-->
+            <!--Were making a text box to allow user summit a photo URL-->
+            <button type = "submit">Submit</button>
+
+            <fieldset><legend> What is your cat's personality?</legend></fieldset>
+            <input type = "checkbox" id = "loving"> <label for="loving">Loving</label>
+         </section>
+      </main>
+   </body>
+</html>
