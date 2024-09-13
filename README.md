@@ -1,7 +1,7 @@
 # Sample
 Experience and Projects
 
-This repository folder is inteded to show case Wilmer Soriano in hand experience in Programming world. License under GNU Affero General Public License v3.0
+This repository folder is intended to show case Wilmer Soriano in hand experience in Programming world. License under GNU Affero General Public License v3.0
 
 I want to take a moment to introduce you to my projects, on going work, and the skills I'm proud to have. I believe it's important to show case one's own skills, and passions. I'm thrilled to offer you an insider's look into my coding world. If you're eager to explore and be part of this journey, here are several ways to get in touch:
 
