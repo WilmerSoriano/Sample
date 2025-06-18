@@ -1,6 +1,8 @@
-# Library Management System (LMS)
+# Library Management System 📚📼
+
 ![the main menu](LibraryIntro.png)
-This is a simple **Library Management System** built in Java. It allows you to:
+
+*This is a simple **Library Management System** built in Java. It allows you to:
 - Track publications (books and videos)
 - Check out 
 - Store and retrieve resource information via file I/O
@@ -11,15 +13,16 @@ This project uses standard Java features (no external dependencies) and builds v
 ---
 
 ## 📁 Project Structure
-
+   ````text
 JavaProgram/
-├── build.xml # Ant build script
-├── mdi/
-│ └── LibraryManager.java # Main class with main() method
-├── library/
-│ ├── Publication.java # Shared superclass for all media
-│ ├── Video.java # Video-specific class
-│ └── library.java # manages the books/videos
+            ├── build.xml # Ant build script
+            ├── mdi/
+            │ └── LibraryManager.java # Main class with main() method
+            ├── library/
+            │ ├── Publication.java # Shared superclass for all media
+            │ ├── Video.java # Video-specific class
+            │ └── library.java # manages the books/videos
+  ````
 ![list example](example.png)
 ---
 
