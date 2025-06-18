@@ -41,6 +41,7 @@ JavaProgram/
   java -cp . mdi.LibraryManager
 ```
 ## or
+
 ⚠️ Linux Shortcut (Not portable)
 On some versions of Linux, you can run the program like this:
 ```bash
@@ -77,8 +78,9 @@ This will generate documentation in: docs/api/index.html
 
 ---
 
-##🧹 Clean the Build
+## 🧹 Clean the Build
 To delete all .class files and documentation:
+
 ```bash
   ant clean
 ```
