@@ -35,6 +35,7 @@ JavaProgram/
   ant build
 ```
 ![compile](compile.png)
+
 **Step 2: Run the main program**
 ```bash
   java -cp . mdi.LibraryManager
@@ -45,6 +46,7 @@ On some versions of Linux, you can run the program like this:
 ```bash
   java mdi/LibraryManager
 ```
+
 ![the main menu](LibraryIntro.png)
 ![list of books example](listbooks.png)
 
