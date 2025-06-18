@@ -15,13 +15,13 @@ This project uses standard Java features (no external dependencies) and builds v
 ## 📁 Project Structure
    ````text
 JavaProgram/
-            ├── build.xml # Ant build script
-            ├── mdi/
-            │ └── LibraryManager.java # Main class with main() method
-            ├── library/
-            │ ├── Publication.java # Shared superclass for all media
-            │ ├── Video.java # Video-specific class
-            │ └── library.java # manages the books/videos
+               ├── build.xml # Ant build script
+               ├── mdi/
+               │ └── LibraryManager.java # Main class
+               ├── library/
+               │ ├── Publication.java # Shared superclass for all media
+               │ ├── Video.java # Video-specific class
+               │ └── library.java # manages the books/videos
   ````
 ![list example](example.png)
 ---
@@ -47,6 +47,8 @@ On some versions of Linux, you can run the program like this:
 ```bash
   java mdi/LibraryManager
 ```
+
+## How it should look like
 
 ![the main menu](LibraryIntro.png)
 ![list of books example](listbooks.png)
