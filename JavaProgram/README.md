@@ -1,6 +1,7 @@
 # Library Management System 📚📼
 
-![the main menu](LibraryIntro.png)
+![CastlevaniaOrderOfEcclesiaLibraryGIF (2)](https://github.com/user-attachments/assets/9eb22a98-68bf-472e-8a33-8b55a4c4f054)
+
 
 *This is a simple **Library Management System** built in Java. It allows you to:
 - Track publications (books and videos)
